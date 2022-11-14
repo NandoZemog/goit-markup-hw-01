@@ -1,5 +1,6 @@
 /* General */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100&display=swap');
 a:link, a:visited, a:active {
     text-decoration:none;
 }
@@ -116,4 +117,97 @@ header{
     width: 118px;
 }
 
+.nuestro-negocio{
+    background: #2F303A;
+    height: 600px;
+    left: -4px;
+    position: absolute;
+    top: 80px;
+    width: 1600px;
+}
+
+.nuestro-negocio .titulo-nuestro-negocio{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    font-style: normal;
+    height: 120px;
+    left: 448px;
+    letter-spacing: 0.06em;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 200px;
+    width: 696px;
+}
+
+.nuestro-negocio .button{
+    align-items: center;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 50px;
+    justify-content: center;
+    left: 666px;
+    padding: 10px 32px;
+    position: absolute;
+    top: 430px;
+    width: 261px;
+}
+
+.texto-button{
+    align-items: center;
+    display: flex;
+    color: #FFFFFF;
+    flex: none;
+    flex-grow: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    order: 0;
+    text-align: center;
+    width: 197px;
+}
+
+.descripcion-negocio{
+    position: absolute;
+    width: 1170px;
+    height: 122px;
+    left: 215px;
+    top: 775px;
+}
+
+.nosotros{
+    position: absolute;
+    width: 1173.16px;
+    height: 425px;
+    left: 215px;
+    top: 991px;
+}
+
+.nuestro-equipo{
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1510px;
+}
+
+.footer{
+    background-color: rgb(47, 48, 58);
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2158px;
+}
 
