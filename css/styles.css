@@ -1,15 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
-
-body {
-    font-family: Monserrat; sans-serif;
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+a:link, a:visited, a:active {
+    text-decoration:none;
 }
 
+/* Contenedor Principal */
+body {
+    background: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+    height: 2410px;
+    position: relative;
+    width: 1600px;
+}
+
+/* Encabezado */
+
 header{
-    background-color: #FFFFFF;
+    background-color: rgb(255, 255, 255);
     height: 80px;
     left: 0px;
     top: 0px;
     width: 1600px;
+    align-self: start;
 }
+
+.web-studio{
+    color: rgb(33, 150, 243);
+    font-family: "Raleway", sans-serif !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 31px;
+    position: absolute;
+    text-align: right;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+}
+
+.banner-encabezado .text-estudio{
+    color: rgb(32, 148, 243);
+    font-family: "Roboto", sans-serif !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    height: 16px;
+    left: 453px;
+    letter-spacing: 0.02em;
+    position: absolute;
+    top: 32px;
+    width: 49px;
+}
+
+.banner-encabezado .text-portafolio{
+    color: rgb(33, 33, 33);
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    left: 552px;
+    letter-spacing: 0.02em;
+    position: absolute;
+    top: 32px;
+    width: 65px;
+}
+
+.banner-encabezado .text-contactos{
+    color: rgb(33, 33, 33);
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    height: 16px;
+    left: 667px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    position: absolute;
+    top: 32px;
+    width: 67px;
+}
+
+.banner-encabezado .mail{
+    color: rgb(33, 150, 243);
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    height: 16px;
+    letter-spacing: 0.02em;
+    left: 1000px;
+    line-height: 16px;
+    position: absolute;
+    top: 32px;
+    width: 135px;
+}
+
+.banner-encabezado .tel{
+    color: rgb(117, 117, 117);
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    height: 16px;
+    letter-spacing: 0.02em;
+    left: 1200px;
+    line-height: 16px;
+    position: absolute;
+    top: 32px;
+    width: 118px;
+}
+
 
