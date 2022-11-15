@@ -16,7 +16,6 @@ body {
 }
 
 /* Encabezado */
-
 header{
     background-color: rgb(255, 255, 255);
     height: 80px;
@@ -117,6 +116,7 @@ header{
     width: 118px;
 }
 
+/* Nuestro negocio */
 .nuestro-negocio{
     background: #2F303A;
     height: 600px;
@@ -178,6 +178,7 @@ header{
     width: 197px;
 }
 
+/* Descripcion negocio */
 .descripcion-negocio{
     position: absolute;
     width: 1170px;
@@ -202,6 +203,7 @@ header{
     top: 1510px;
 }
 
+/* Pie de pagina */
 .footer{
     background-color: rgb(47, 48, 58);
     position: absolute;
